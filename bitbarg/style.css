@@ -1,0 +1,359 @@
+@font-face {
+    font-family: taha;
+    src: url(Fonts/IRANSansWeb\(FaNum\)_Medium.822e3858.woff2);
+}
+
+@font-face {
+    font-family: ahmad;
+    src: url(Fonts/IRANSansWeb\(FaNum\).ecabe04e.woff2);
+}
+
+
+.imge {
+    text-align: center;
+}
+
+.img {
+    width: 272px;
+    margin-top: 58px;
+}
+
+.ta1 {
+    width: 598px;
+    height: 481px;
+    margin: auto;
+    border: 1px solid;
+    color: rgb(215 215 215);
+    border-radius: 14px;
+}
+
+.bo {
+    width: 100%;
+    background: #f4f4f4;
+    height: 53px;
+    border-radius: 14px 14px 0 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #bfbfbf;
+}
+
+
+
+.button1 {
+
+    background: transparent;
+    width: 90px;
+    height: 53px;
+    border: none;
+    font-size: 17px;
+    color: #727272;
+    font-family: taha;
+    font-weight: 400px;
+}
+
+.button2 {
+    background: transparent;
+    width: 90px;
+    height: 53px;
+    border: none;
+    font-size: 17px;
+    color: #727272;
+    font-family: taha;
+    font-weight: 400px;
+    overflow: hidden;
+}
+
+.button3 {
+    background: rgba(66, 133, 242, 0.08);
+    width: 90px;
+    height: 53px;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid #8484f1;
+    font-family: taha;
+    font-weight: 400px;
+    color: #4285F2;
+    overflow: hidden;
+}
+
+
+
+.head {
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+    direction: rtl;
+    overflow: hidden;
+}
+
+.te {
+    text-align: left;
+    margin-top: -37px;
+    margin-left: 11px;
+    font-family: 'ahmad';
+    font-size: 14px;
+    color: #4285F2;
+    padding: 2px;
+}
+
+.ta {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(4, 182, 4);
+    border-radius: 100%;
+    margin-left: 140px;
+    margin-top: -17px;
+}
+
+.input1 {
+    width: 518px;
+    height: 100px;
+    margin-top: 40px;
+    border: 1px solid #f5f5f5;
+    border-radius: 9px;
+    background: #f6f7f8;
+    font-family: taha;
+    font-size: 25px;
+    padding: 13px;
+    outline: none;
+}
+
+.input2 {
+    width: 518px;
+    height: 100px;
+    margin-top: 11px;
+    border: 1px solid #f5f5f5;
+    border-radius: 9px;
+    background: #f6f7f8;
+    font-family: taha;
+    font-size: 25px;
+    padding: 13px;
+    outline: none;
+
+}
+
+.cir {
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid rgb(199, 199, 199);
+    text-align: center;
+    position: absolute;
+    top: 342px;
+    display: flex;
+    justify-self: center;
+
+}
+
+
+.input2:hover {
+    transition: 0.5s;
+    background-color: #f3f2f2;
+    border: 1px solid rgb(231, 231, 231);
+
+}
+
+.input1:hover {
+    transition: 0.5s;
+    background-color: #f3f2f2;
+    border: 1px solid rgb(231, 231, 231);
+
+}
+
+.bar1 {
+    font-size: 13px;
+    font-family: 'ahmad';
+    color: gray;
+    position: absolute;
+    margin-top: 51px;
+    margin-left: -78px;
+}
+
+.bar2 {
+    margin-top: 92px;
+    margin-left: 417px;
+    font-size: 13px;
+    font-family: 'ahmad';
+    color: gray;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -79px;
+}
+
+
+
+.input1:focus+.bar1 {
+    color: #4285F2;
+
+}
+
+.input2:focus+.bar2 {
+    color: #4285F2;
+
+}
+
+.sp1 {
+    color: #000000;
+    position: absolute;
+    margin-top: -59px;
+    margin-left: -97px;
+    font-family: 'ahmad';
+}
+
+.sp2 {
+    color: black;
+    position: absolute;
+    margin-top: -38px;
+    margin-left: -100px;
+    font-size: 13px;
+    font-family: 'ahmad';
+}
+
+.im1 {
+    width: 36px;
+    position: absolute;
+    margin-top: -56px;
+    margin-left: -46px;
+}
+
+.sp3 {
+    position: absolute;
+    margin-top: 186px;
+    margin-left: -85px;
+    color: black;
+    font-size: 17px;
+    font-family: 'ahmad';
+}
+
+.im2 {
+    width: 36px;
+    position: absolute;
+    margin-top: 186px;
+    margin-left: -55px;
+}
+
+.sp4 {
+    position: absolute;
+    margin-top: 212px;
+    margin-left: -92px;
+    font-size: 13px;
+    color: black;
+    font-family: 'ahmad';
+}
+
+.booo {
+    border: none;
+    width: 518px;
+    border-radius: 6px;
+    margin-top: 13px;
+    height: 43px;
+    background-color: rgb(69 138 249);
+    color: white;
+    font-family: 'ahmad';
+}
+
+.booo:hover {
+    background-color: rgb(38, 78, 142);
+}
+
+.b1 {
+    border: 1px solid #4285F2;
+    width: 163px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'ahmad';
+    color: #4285F2;
+    margin-top: 12px;
+}
+
+.b2 {
+    border: 1px solid #4285F2;
+    width: 163px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'ahmad';
+    color: #4285F2;
+    margin-top: 12px;
+}
+
+.b3 {
+    border: 1px solid #4285F2;
+    width: 163px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'ahmad';
+    color: #4285F2;
+    margin-top: 12px;
+}
+
+#vvv {
+    position: absolute;
+    top: 548px;
+    left: 677px;
+}
+
+.b1:hover {
+    background-color: #f8fafd;
+    border: 1.5px solid #0062ff;
+}
+
+.b2:hover {
+    background-color: #f8fafd;
+    border: 1.5px solid #0062ff;
+}
+
+.b3:hover {
+    background-color: #f8fafd;
+    border: 1.5px solid #0062ff;
+}
+
+.buttontree {
+    display: inline-flex;
+    gap: 6px;
+}
+
+.flasher {
+    position: relative;
+    width: 30px;
+    height: 60px;
+    margin: auto;
+}
+
+@keyframes move {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    animation: move 1s infinite;
+}
+
+.booo1 {
+    position: absolute;
+    margin-top: -126px;
+    margin-left: -21px;
+    text-align: center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    border: 2px solid #e4e2e2;
+    color: #525151;
+    display: none;
+}
